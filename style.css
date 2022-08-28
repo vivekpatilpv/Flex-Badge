@@ -1,0 +1,78 @@
+/* MAIN SECTION STARTS  */
+
+body {
+  margin: 1.5625rem;
+}
+main {
+  display: flex;
+  border: solid black;
+  width: 20rem;
+  height: 38rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  border: 5px solid;
+} 
+
+.notis {
+  width: 19.9375rem;
+  height: 7.1875rem;
+  display: flex;
+}
+
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.125rem;
+  height: 3.125rem;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #cccccc;
+}
+
+.icon-button-badge {
+  position: absolute;
+  top: -0.625rem;
+  right: -0.625rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+img {
+  width: 3.75rem;
+  height: 3.4864rem;
+}
+
+.btn1 {
+  margin-left: 6.25rem;
+}
+
+.btn2 {
+  margin-left: 6.25rem;
+}
+
+
+
+
+/* MAIN SECTION ENDS */
